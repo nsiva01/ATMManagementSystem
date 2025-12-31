@@ -6,7 +6,7 @@ ATM Management System is a **Core Java console-based application** that simulate
 The system allows users to authenticate using account number and PIN and perform banking operations such as balance inquiry, cash withdrawal, and deposit.
 
 Features:
- Secure user authentication (Account Number & PIN)
+- Secure user authentication (Account Number & PIN)
 - Balance inquiry
 - Cash withdrawal with validation
 - Cash deposit
