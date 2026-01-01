@@ -1,0 +1,47 @@
+package com.sk.model;
+
+public class Account {
+
+	private long accNo;
+	private String name;
+	private int pin;
+	private double balance;
+	public long getAccNo() {
+		return accNo;
+	}
+	public void setAccNo(long accNo) {
+		this.accNo = accNo;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getPin() {
+		return pin;
+	}
+	public void setPin(int pin) {
+		this.pin = pin;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	
+	public Account(long accNo, String name, int pin, double balance) {
+		super();
+		this.accNo = accNo;
+		this.name = name;
+		this.pin = pin;
+		this.balance = balance;
+	}
+	@Override
+	public String toString() {
+		return "Account [accNo=" + accNo + ", name=" + name + ", pin=" + pin + ", balance=" + balance + "]";
+	}
+	
+	
+}
